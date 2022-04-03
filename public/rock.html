@@ -5,41 +5,66 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
-</head>
+
+  <!-- <style>
+    ...add in all the styles from my_styles.css
+  </style> -->
+    <link rel="stylesheet" href="my_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Rubik+Microbe&display=swap" rel="stylesheet">  
+  </head>
 
 <body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
+  <div class="container">
+    <div class="row mb">
+      <div class="one-third">
+        <a class="button centered" href="/rock">
+          Play Rock
+        </a>
+      </div>
+
+      <div class="one-third">
+        <a class="button centered"href="/paper">
+          Play Paper
+        </a>
+      </div>
+
+      <div class="one-third">
+        <a class="button centered"href="/scissors">
+          Play Scissors
+        </a>
+      </div>
+    </div>
+
+    <div class="row mb">
+      <div class="player-card centered">
+        <h2>
+          We played rock!
+        </h2>
+      </div>
+
+
+      <div class="computer-card centered">
+        <h2>
+          They played paper!
+        </h2>
+      </div>
+    </div>
+
+    <div class="row-center mb">
+      <div class="bad-outcome centered">
+        <h2>
+          We lost!
+        </h2>
+      </div>
+    </div>
+
+    <div class="row-center mb">
+      <a href="/">
+        Rules
+      </a>
+    </div>
   </div>
 
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
-
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
-
-  <h2>
-    We played rock!
-  </h2>
-
-  <h2>
-    They played paper!
-  </h2>
-
-  <h2>
-    We lost!
-  </h2>
-
-  <a href="/">
-    Rules
-  </a>
 </body>
 </html>

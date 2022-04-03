@@ -1,0 +1,72 @@
+* {
+    /* border: thin red dashed; */
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* put contents of body in center of viewport: */
+    align-items: center;
+    height: 100vh;
+    /* border: 1px red dashed; */
+}
+.container {
+    width: 960px;
+    /* border: 1px green dashed; */
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.row-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* 2 utility classes */
+.mb {
+    margin-bottom: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.one-third {
+    width: 32%;
+}
+/* a { 
+  color: teal;
+  border: 1px teal solid; 
+  padding: 5px 15px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+} */
+.button {
+    /* margin: 10px; */
+    color: teal;
+    border: 1px teal solid;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+.player-card {
+    border: thin green solid;
+    width: 49%;
+}
+.computer-card {
+    border: thin red solid;
+    width: 49%;
+}
+.bad-outcome {
+    color: red;
+    font-family: "Rubik Microbe", cursive;
+    border: thin red solid;
+    width: 66%;
+    background-color: pink;
+}
